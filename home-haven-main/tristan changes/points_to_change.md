@@ -35,13 +35,13 @@ The client's name and location appear in several components.
 ## 3. Visual Identity (Theme)
 Update the primary color scheme and fonts.
 
-- [ ] **File**: `src/index.css`
-    - [ ] Update CSS variables for colors (Lines 18-35). Current accent is `--accent: 43 54% 55%` (a gold/brown).
-    - [ ] Update Fonts (Lines 1, 97, 102). Currently uses 'Public Sans' and 'Hanken Grotesk'.
-- [ ] **File**: `tailwind.config.ts`
-    - [ ] Review any hardcoded theme extensions if any.
-- [ ] **File**: `index.html`
-    - [ ] Update `<meta name="theme-color">` (line 11).
+- [x] **File**: `src/index.css`
+    - [x] Update CSS variables for colors (Lines 18-35). New theme: Midnight Sapphire.
+    - [x] Update Fonts (Lines 1, 97, 102). (Kept current modern pairing as it works well with the new palette)
+- [x] **File**: `tailwind.config.ts`
+    - [x] Review any hardcoded theme extensions if any. (Verified: no changes needed)
+- [x] **File**: `index.html`
+    - [x] Update `<meta name="theme-color">` (line 11).
 
 ## 4. Assets
 Replace image files in the `public` folder.
