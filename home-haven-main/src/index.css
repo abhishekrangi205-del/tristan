@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&family=Hanken+Grotesk:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 220 40% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 13%;
+
+    --primary: 220 40% 13%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 220 10% 40%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 14% 94%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 43 54% 55%;
+    --accent-foreground: 220 40% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 88%;
+    --input: 220 14% 88%;
+    --ring: 43 54% 55%;
+
+    --radius: 0.375rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 40% 6%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 40% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 40% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 0% 95%;
+    --primary-foreground: 220 40% 8%;
+
+    --secondary: 220 14% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 14% 15%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 43 54% 55%;
+    --accent-foreground: 220 40% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 14% 18%;
+    --input: 220 14% 18%;
+    --ring: 43 54% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+}
+
+/* Section title with accent underline (centered) */
+.section-title {
+  @apply relative inline-block pb-2;
+}
+.section-title::after {
+  content: "";
+  @apply absolute left-1/2 -translate-x-1/2 bottom-0 w-12 h-0.5 rounded-full bg-accent;
+}
+/* Left-aligned section title (e.g. About) */
+.section-title-left::after {
+  @apply left-0 translate-x-0;
+}
