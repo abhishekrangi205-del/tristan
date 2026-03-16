@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 text-sm">
           <div>
             <p className="font-semibold text-foreground mb-2" style={{ fontFamily: "'Public Sans', sans-serif" }}>
-              Parikshit Patel
+              Tristan Ritchie
             </p>
             <p className="text-muted-foreground">
               Expert Real Estate Services
@@ -29,7 +29,7 @@ const Footer = () => {
                 Get in touch
               </a>
               <a
-                href="mailto:parikshit@example.com"
+                href="mailto:tristan@example.com"
                 className="block hover:text-accent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded"
               >
                 Email me
@@ -46,7 +46,7 @@ const Footer = () => {
             <p className="font-semibold text-foreground mb-2">Follow</p>
             <div className="flex gap-4 text-muted-foreground">
               <a
-                href="https://linkedin.com/in/parikshit-patel"
+                href="https://linkedin.com/in/tristanritchie"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded"
@@ -54,7 +54,7 @@ const Footer = () => {
                 LinkedIn
               </a>
               <a
-                href="https://instagram.com/parikshit.patel"
+                href="https://instagram.com/tristanritchie"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded"
@@ -62,7 +62,7 @@ const Footer = () => {
                 Instagram
               </a>
               <a
-                href="https://facebook.com/parikshit.patel"
+                href="https://facebook.com/tristanritchie"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded"
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
         <div className="mt-10 pt-6 border-t border-border text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Parikshit Patel. All rights reserved.
+            © {new Date().getFullYear()} Tristan Ritchie. All rights reserved.
           </p>
         </div>
       </div>

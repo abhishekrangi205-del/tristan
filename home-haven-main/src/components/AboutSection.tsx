@@ -26,7 +26,7 @@ const AboutSection = () => {
           >
             <img
               src={ABOUT_IMAGE_URL}
-              alt="Parikshit Patel, Realtor"
+              alt="Tristan Ritchie, Realtor"
               className="h-full w-full object-cover object-top"
             />
           </motion.div>

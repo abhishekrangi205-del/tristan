@@ -116,7 +116,7 @@ const Navigation = () => {
           className="text-lg font-semibold tracking-tight text-foreground"
           style={{ fontFamily: "'Public Sans', sans-serif" }}
         >
-          Parikshit Patel
+          Tristan Ritchie
         </a>
 
         {/* Desktop */}

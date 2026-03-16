@@ -74,7 +74,7 @@ const HeroSection = () => {
           }
           className="text-lg text-muted-foreground max-w-xl mx-auto mb-10"
         >
-          Parikshit Patel — Your trusted partner for buying and selling homes in
+          Tristan Ritchie — Your trusted partner for buying and selling homes in
           Greater Sudbury with precision, care, and unwavering dedication.
         </motion.p>
         <motion.div

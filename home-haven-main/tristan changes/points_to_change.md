@@ -17,20 +17,20 @@ Changes required in `index.html` to update page titles, descriptions, and schema
 ## 2. Branding & Content
 The client's name and location appear in several components.
 
-- [ ] **File**: `src/components/Navigation.tsx`
+- [x] **File**: `src/components/Navigation.tsx`
     - Update logo/brand name.
-- [ ] **File**: `src/components/HeroSection.tsx`
+- [x] **File**: `src/components/HeroSection.tsx`
     - Update main heading and subtext.
-- [ ] **File**: `src/components/AboutSection.tsx`
+- [x] **File**: `src/components/AboutSection.tsx`
     - Update bio and profile text.
-- [ ] **File**: `src/components/ContactSection.tsx`
+- [x] **File**: `src/components/ContactSection.tsx`
     - Update contact details and location.
-- [ ] **File**: `src/components/Footer.tsx`
+- [x] **File**: `src/components/Footer.tsx`
     - Update copyright and branding.
-- [ ] **File**: `src/components/Testimonials.tsx`
+- [x] **File**: `src/components/Testimonials.tsx`
     - Update occurrences of the agent's name.
-- [ ] **File**: `src/components/PropertySearch.tsx`
-    - Update search context (if location specific).
+- [x] **File**: `src/components/PropertySearch.tsx`
+    - Update search context (if location specific). (Verified: no name change needed)
 
 ## 3. Visual Identity (Theme)
 Update the primary color scheme and fonts.
