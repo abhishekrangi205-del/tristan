@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 
-const ABOUT_IMAGE_URL = "/tristan-ritchie-profile.png";
+const ABOUT_IMAGE_URL = "/file_00000000984071fd82154f5f0c70a4af.png";
 
 const stats = [
   { value: "10+", label: "Years experience" },
